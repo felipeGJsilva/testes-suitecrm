@@ -120,7 +120,7 @@
 ![Captura de tela 2025-04-20 200440](https://github.com/user-attachments/assets/42101282-201e-476a-97e6-6d5541d6b8cd)
 ![Captura de tela 2025-04-20 200553](https://github.com/user-attachments/assets/da6cf301-ff82-4b2e-bf66-e0e92d5d7658)
 
-## 4. Exclusão de contato existente:
+## 5. Exclusão de contato existente:
 
 ### Descrição: Realizar a exclusão de um contato existentes;
 
