@@ -154,3 +154,31 @@
 ![Captura de tela 2025-04-20 203240](https://github.com/user-attachments/assets/ebeb9607-dcab-4dce-a07f-f3cc51969068)
 
 
+
+## 6. Pesquisa de registroo:
+
+### Descrição: Realizar pesquisare de registo no site;
+
+### Objetivo: Validar o mecanismo de busca, utilizando diferentes critérios (nome, e-mail, etc.) para garantir a precisão dos resultados.
+
+
+### O que será testado: Exclusão de um contato;
+
+### Pré requisitos:
+* Usuario existente no sistema do SuiteCRM
+* Sistema especificação:Windows 10
+* Entrar com o usuario: "admin" e senha:"admin123"
+* Clicar no botão de login
+* Localizr na barra de tarefas a função Account
+* Clicar no botão View Contact
+* Selecionar o contato desejado para a exclusão
+* Clicar no Botão de Actions
+* Clicar no botão delete
+  
+### Procedimento para execução do teste: Exclusão de um contato existente;
+
+### Resultado esperado: Exclusão  de um contato de forma simples;
+
+### Resultado real: Exclusão de contato com sucesso;
+
+### Analise do resultado:Teste realizado com sucesso, no qual não foi apresentado erros;
