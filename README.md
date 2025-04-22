@@ -147,6 +147,8 @@
 
 ### Analise do resultado:Teste realizado com sucesso, no qual não foi apresentado erros;
 
+### Evidencias:
+
 ![Captura de tela 2025-04-20 200422](https://github.com/user-attachments/assets/8e215665-58f6-438d-a0de-72117a576891)
 ![Captura de tela 2025-04-20 200352](https://github.com/user-attachments/assets/050bf21d-a27f-48b7-8d94-860980b77132)
 ![Captura de tela 2025-04-20 200440](https://github.com/user-attachments/assets/f5560177-8121-46ff-b2b7-3a8657b312d1)
@@ -155,30 +157,31 @@
 
 
 
-## 6. Pesquisa de registroo:
+## 6. Pesquisa de registro:
 
 ### Descrição: Realizar pesquisare de registo no site;
 
 ### Objetivo: Validar o mecanismo de busca, utilizando diferentes critérios (nome, e-mail, etc.) para garantir a precisão dos resultados.
 
-
-### O que será testado: Exclusão de um contato;
+### O que será testado:O mecanismo de busca do site, no qual sera utilzado critérios para busca do resultado ;
 
 ### Pré requisitos:
 * Usuario existente no sistema do SuiteCRM
 * Sistema especificação:Windows 10
 * Entrar com o usuario: "admin" e senha:"admin123"
 * Clicar no botão de login
-* Localizr na barra de tarefas a função Account
-* Clicar no botão View Contact
-* Selecionar o contato desejado para a exclusão
-* Clicar no Botão de Actions
-* Clicar no botão delete
+* Localizr na barra de tarefas a função de  Search
+* Indicar o critério a ser procurado
   
-### Procedimento para execução do teste: Exclusão de um contato existente;
+### Procedimento para execução do teste: Inserção de criterios para ser realizada a pesquisa ;
 
-### Resultado esperado: Exclusão  de um contato de forma simples;
+### Resultado esperado: Pesquisa rapida e eficiente utilizando criterios de nomes, email etc, desejados;
 
-### Resultado real: Exclusão de contato com sucesso;
+### Resultado real: Pesquisa realizada com sucesso;
 
-### Analise do resultado:Teste realizado com sucesso, no qual não foi apresentado erros;
+### Analise do resultado: Pesquisa realizada com sucesso, no qual não foi apresentado erros;
+
+### Evidencias:
+
+![Captura de tela 2025-04-22 193927](https://github.com/user-attachments/assets/eb05ca29-4870-4200-bf19-2de9e5de340f)
+![Captura de tela 2025-04-22 193943](https://github.com/user-attachments/assets/a067840a-97b7-4caa-ac3c-5734e305e247)
