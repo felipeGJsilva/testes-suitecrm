@@ -159,7 +159,7 @@
 
 ## 6. Pesquisa de registro:
 
-### Descrição: Realizar pesquisare de registo no site;
+### Descrição: Realizar pesquisa de registo no site;
 
 ### Objetivo: Validar o mecanismo de busca, utilizando diferentes critérios (nome, e-mail, etc.) para garantir a precisão dos resultados.
 
@@ -185,3 +185,34 @@
 
 ![Captura de tela 2025-04-22 193927](https://github.com/user-attachments/assets/eb05ca29-4870-4200-bf19-2de9e5de340f)
 ![Captura de tela 2025-04-22 193943](https://github.com/user-attachments/assets/a067840a-97b7-4caa-ac3c-5734e305e247)
+
+## 7. Importação de dados: 
+
+### Descrição: Realizar a importação de dados do site;
+
+### Objetivo: Verificar se o sistema importa corretamente os dados a partir de um arquivo CSV;
+
+### O que será testado:O mecanismo de importação de dados do site ;
+
+### Pré requisitos:
+* Usuario existente no sistema do SuiteCRM
+* Sistema especificação:Windows 10
+* Entrar com o usuario: "admin" e senha:"admin123"
+* Clicar no botão de login
+* Localizr na barra de tarefas a botão contacts
+* Clique no botão Imports contacts
+* Clique no link "Download import File template"
+  
+### Procedimento para execução do teste: Download atráves do link que será baixado o file dos contacts ;
+
+### Resultado esperado: Importação eficiente dos contacts através de download;
+
+### Resultado real: Importação dos dados;
+
+### Analise do resultado: importação realizada com sucesso, no qual não foi apresentado erros;
+
+### Evidencias:
+![Captura de tela 2025-04-22 201449](https://github.com/user-attachments/assets/2c8de863-85b5-43f7-8005-22c82d842014)
+![Captura de tela 2025-04-22 201505](https://github.com/user-attachments/assets/2dabdbca-2019-49ed-9205-6f69c83559c2)
+
+
