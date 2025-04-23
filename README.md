@@ -1,241 +1,267 @@
-# testes-suitecrm
+### RELATÓRIOS DE TESTE – SuiteCRM
 
-## 1. Teste Login:
+---
 
-### Descrição: Realizar login com usuario valido;
+#### **1. Teste de Login com Credenciais Válidas**
 
-### Objetivo:Verificar se o sistema permite o login com credenciais válidas;
+**Descrição:**
+Verificação do processo de autenticação de usuário com credenciais válidas.
 
-### O que será testado: Será testado o login de usuario de forma validade;
+**Objetivo:**
+Confirmar que o sistema permite o acesso quando credenciais corretas são fornecidas.
 
-### Pré requisitos:
-* Usuario existente no sistema do SuiteCRM
-* Sistema especificação:Windows 10
-* Entrar com o usuario: "admin" e senha:"admin123"
-* clicar no botão de login
-  
-### Procedimento para execução do teste: Preenchimento da espaço de login e senha com as credencias de "admin" para login e "admin123" para senha;
+**O que será testado:**
+Funcionalidade de login.
 
-### Resultado esperado: Acesso com sucesso ao site;
+**Pré-requisitos:**
+- Acesso à instância SuiteCRM;
+- Usuário: admin;
+- Senha: admin123;
+- Navegador Google Chrome em ambiente Windows 10;
+- Conexão com a internet.
 
-### Resultado real: Login realizado com sucesso;
+**Procedimento para Execução do Teste:**
+1. Acessar a tela de login do sistema;
+2. Informar usuário "admin" e senha "admin123";
+3. Clicar no botão "Login".
 
-### Analise do resultado: Perfeito, login sem problema;
+**Resultado Esperado:**
+Usuário autenticado com sucesso e redirecionado para a tela principal do sistema.
 
-### Evidencias:
+**Resultado Real:**
+Acesso realizado com sucesso.
 
-![Captura de tela 2025-04-15 203032](https://github.com/user-attachments/assets/3188dcf8-5cf1-4676-809e-64bac6b19ce0)
+**Análise do Resultado:**
+Teste aprovado. O login foi efetuado corretamente.
 
-![Captura de tela 2025-04-15 203059](https://github.com/user-attachments/assets/44559b79-11e5-4ec3-b807-284f8e229302)
+**Evidências:**
+[Imagem 1](https://github.com/user-attachments/assets/3188dcf8-5cf1-4676-809e-64bac6b19ce0)
+[Imagem 2](https://github.com/user-attachments/assets/44559b79-11e5-4ec3-b807-284f8e229302)
 
-## 2. Teste Login Invalido:
+---
 
-### Descrição: Tentar realizar login com usuario invaldio;
+#### **2. Teste de Login com Credenciais Inválidas**
 
-### Objetivo: Avaliar a resposta do sistema quando são inseridas credenciais inválidas, confirmando a exibição de mensagens de erro apropriadas;
+**Descrição:**
+Verificação do comportamento do sistema ao inserir credenciais inválidas.
 
-### O que será testado: Será testado o login de usuario de forma invalida;
+**Objetivo:**
+Avaliar se o sistema impede o login e apresenta mensagem de erro adequada.
 
-### Pré requisitos:
-* Usuario existente no sistema do SuiteCRM
-* Sistema especificação:Windows 10
-* Entrar com o usuario: "admininvalido" e senha:"admin345"
-* clicar no botão de login
-  
-### Procedimento para execução do teste: Preenchimento da espaço de login e senha com as credencias de "admininvalido" para login e "admin345" para senha;
+**O que será testado:**
+Validação de login com dados incorretos.
 
-### Resultado esperado: Não acessar o site;
+**Pré-requisitos:**
+- Acesso à instância SuiteCRM;
+- Usuário: admininvalido;
+- Senha: admin345;
+- Navegador Google Chrome em ambiente Windows 10;
 
-### Resultado real: Site não acessado;
+**Procedimento para Execução do Teste:**
+1. Acessar a tela de login do sistema;
+2. Informar usuário "admininvalido" e senha "admin345";
+3. Clicar no botão "Login".
 
-### Analise do resultado:Teste realizado com sucesso, no qual não foi possivel acessar o site;
+**Resultado Esperado:**
+Sistema não permite acesso e apresenta mensagem de erro.
 
-### Evidencias:
-![Captura de tela 2025-04-19 184732](https://github.com/user-attachments/assets/0d1e68da-806f-43cf-9275-e054e7ede751)
+**Resultado Real:**
+Acesso negado, conforme esperado.
 
-![Captura de tela 2025-04-19 184717](https://github.com/user-attachments/assets/9c6c42ee-b4f2-4664-a20a-7e33f25d376b)
+**Análise do Resultado:**
+Teste aprovado. O sistema se comportou corretamente diante de dados inválidos.
 
+**Evidências:**
+[Imagem 1](https://github.com/user-attachments/assets/0d1e68da-806f-43cf-9275-e054e7ede751)
+[Imagem 2](https://github.com/user-attachments/assets/9c6c42ee-b4f2-4664-a20a-7e33f25d376b)
 
-## 3. Criação de novo contato:
+---
 
-### Descrição: Realizar a criação de um novo contato no site com as credenciais;
+#### **3. Teste de Criação de Contato**
 
-### Objetivo: Garantir que o módulo de contatos permita a criação de um novo registro com todas as informações necessárias.
+**Descrição:**
+Verificar se é possível adicionar um novo contato no módulo "Accounts".
 
-### O que será testado: A  criação de um contato no site;
+**Objetivo:**
+Garantir o funcionamento correto da funcionalidade de criação de contato.
 
-### Pré requisitos:
-* Usuario existente no sistema do SuiteCRM
-* Sistema especificação:Windows 10
-* Entrar com o usuario: "admin" e senha:"admin123"
-* clicar no botão de login
-* Localizr na barra de tarefas a função Account
-* Clicar no botão Create Account
-  
-### Procedimento para execução do teste: Preenchimento das credencias necessarias para a criação de contato;
+**O que será testado:**
+Criação de um novo registro de contato.
 
-### Resultado esperado: Criação de um contato de forma simples;
+**Pré-requisitos:**
+- Acesso com usuário "admin";
+- Sistema operacional Windows 10;
+- Navegador compatível;
 
-### Resultado real: Contato criado com sucesso;
+**Procedimento para Execução do Teste:**
+1. Acessar o sistema com credenciais válidas;
+2. Navegar até o menu "Accounts";
+3. Clicar em "Create Account";
+4. Preencher os campos obrigatórios e salvar.
 
-### Analise do resultado:Teste realizado com sucesso, no qual não foi apresentado erros;
+**Resultado Esperado:**
+Contato adicionado com sucesso e visível na lista de contatos.
 
-### Evidencias:
-![Captura de tela 2025-04-19 185633](https://github.com/user-attachments/assets/55958e5f-6ced-44fb-a7c3-c3b07acb892b)
+**Resultado Real:**
+Contato criado corretamente.
 
-![Captura de tela 2025-04-19 190441](https://github.com/user-attachments/assets/cad47d82-7315-4abd-8544-cd977d7652a7)
+**Análise do Resultado:**
+Teste aprovado. Processo de criação executado sem falhas.
 
-![Captura de tela 2025-04-19 190502](https://github.com/user-attachments/assets/5a461efc-6312-4491-b717-6075db3da3ee)
+**Evidências:**
+[Imagem 1](https://github.com/user-attachments/assets/55958e5f-6ced-44fb-a7c3-c3b07acb892b)
+[Imagem 2](https://github.com/user-attachments/assets/cad47d82-7315-4abd-8544-cd977d7652a7)
+[Imagem 3](https://github.com/user-attachments/assets/5a461efc-6312-4491-b717-6075db3da3ee)
 
-## 4. Edição de contato existente:
+---
 
-### Descrição: Realizar a edição de credenciais de um contato existentes;
+#### **4. Teste de Edição de Contato**
 
-### Objetivo: Testar a funcionalidade de edição de registros, verificando se as alterações são salvas e refletidas corretamente;
+**Descrição:**
+Verificar a edição de um contato previamente criado.
 
-### O que será testado: Editar o contato;
+**Objetivo:**
+Testar se as alterações nos registros são salvas corretamente.
 
-### Pré requisitos:
-* Usuario existente no sistema do SuiteCRM
-* Sistema especificação:Windows 10
-* Entrar com o usuario: "admin" e senha:"admin123"
-* Clicar no botão de login
-* Localizr na barra de tarefas a função Account
-* Clicar no botão View Contact
-* Selecionar o contato desejado para a edição
-* Clicar no Botão de Edit
-  
-### Procedimento para execução do teste: Preenchimento das novas credencias para a edição do contato existente;
+**O que será testado:**
+Funcionalidade de edição de contato.
 
-### Resultado esperado: Edição de um contato de forma simples;
+**Pré-requisitos:**
+- Acesso com usuário "admin";
+- Contato previamente criado;
+- Navegador em ambiente Windows 10;
 
-### Resultado real: Edição de contato com sucesso;
+**Procedimento para Execução do Teste:**
+1. Acessar o módulo "Accounts";
+2. Clicar em "View Contact";
+3. Selecionar o contato desejado;
+4. Clicar em "Edit", realizar alterações e salvar.
 
-### Analise do resultado:Teste realizado com sucesso, no qual não foi apresentado erros;
+**Resultado Esperado:**
+Contato atualizado com as novas informações.
 
-### Evidencias:
-![Captura de tela 2025-04-20 200352](https://github.com/user-attachments/assets/9f1778be-cd57-4c96-9d90-f4d76b000a6c)
-![Captura de tela 2025-04-20 200422](https://github.com/user-attachments/assets/7ee43d8f-cf72-4e52-921d-d87a6daf71f9)
-![Captura de tela 2025-04-20 200523](https://github.com/user-attachments/assets/72aa08e8-db57-441c-8db0-1f651bb11af8)
-![Captura de tela 2025-04-20 200440](https://github.com/user-attachments/assets/42101282-201e-476a-97e6-6d5541d6b8cd)
-![Captura de tela 2025-04-20 200553](https://github.com/user-attachments/assets/da6cf301-ff82-4b2e-bf66-e0e92d5d7658)
+**Resultado Real:**
+Alterações salvas com sucesso.
 
-## 5. Exclusão de contato existente:
+**Análise do Resultado:**
+Teste aprovado. Sistema refletiu corretamente as modificações.
 
-### Descrição: Realizar a exclusão de um contato existentes;
+**Evidências:**
+[Imagem 1](https://github.com/user-attachments/assets/9f1778be-cd57-4c96-9d90-f4d76b000a6c)
+[Imagem 2](https://github.com/user-attachments/assets/7ee43d8f-cf72-4e52-921d-d87a6daf71f9)
+[Imagem 3](https://github.com/user-attachments/assets/72aa08e8-db57-441c-8db0-1f651bb11af8)
+[Imagem 4](https://github.com/user-attachments/assets/42101282-201e-476a-97e6-6d5541d6b8cd)
+[Imagem 5](https://github.com/user-attachments/assets/da6cf301-ff82-4b2e-bf66-e0e92d5d7658)
 
-### Objetivo: Confirmar que a exclusão de um contato remove o registro de forma eficaz do sistema;
+---
 
-### O que será testado: Exclusão de um contato;
+#### **5. Teste de Exclusão de Contato**
 
-### Pré requisitos:
-* Usuario existente no sistema do SuiteCRM
-* Sistema especificação:Windows 10
-* Entrar com o usuario: "admin" e senha:"admin123"
-* Clicar no botão de login
-* Localizr na barra de tarefas a função Account
-* Clicar no botão View Contact
-* Selecionar o contato desejado para a exclusão
-* Clicar no Botão de Actions
-* Clicar no botão delete
-  
-### Procedimento para execução do teste: Exclusão de um contato existente;
+**Descrição:**
+Testar a funcionalidade de exclusão de contatos.
 
-### Resultado esperado: Exclusão  de um contato de forma simples;
+**Objetivo:**
+Confirmar que contatos podem ser removidos do sistema sem erros.
 
-### Resultado real: Exclusão de contato com sucesso;
+**O que será testado:**
+Exclusão de registros do módulo "Contacts".
 
-### Analise do resultado:Teste realizado com sucesso, no qual não foi apresentado erros;
+**Pré-requisitos:**
+- Contato previamente criado;
+- Acesso como "admin";
 
-### Evidencias:
+**Procedimento para Execução do Teste:**
+1. Acessar "Accounts" > "View Contact";
+2. Selecionar contato desejado;
+3. Clicar em "Actions" > "Delete".
 
-![Captura de tela 2025-04-20 200422](https://github.com/user-attachments/assets/8e215665-58f6-438d-a0de-72117a576891)
-![Captura de tela 2025-04-20 200352](https://github.com/user-attachments/assets/050bf21d-a27f-48b7-8d94-860980b77132)
-![Captura de tela 2025-04-20 200440](https://github.com/user-attachments/assets/f5560177-8121-46ff-b2b7-3a8657b312d1)
-![Captura de tela 2025-04-20 200553](https://github.com/user-attachments/assets/ee6ea620-39c7-4f92-9281-ed60bc4685cd)
-![Captura de tela 2025-04-20 203240](https://github.com/user-attachments/assets/ebeb9607-dcab-4dce-a07f-f3cc51969068)
+**Resultado Esperado:**
+Contato removido com sucesso da base.
 
+**Resultado Real:**
+Registro deletado com êxito.
 
+**Análise do Resultado:**
+Teste aprovado. O contato foi excluído do sistema corretamente.
 
-## 6. Pesquisa de registro:
+**Evidências:**
+[Imagem 1](https://github.com/user-attachments/assets/8e215665-58f6-438d-a0de-72117a576891)
+[Imagem 2](https://github.com/user-attachments/assets/050bf21d-a27f-48b7-8d94-860980b77132)
+[Imagem 3](https://github.com/user-attachments/assets/f5560177-8121-46ff-b2b7-3a8657b312d1)
+[Imagem 4](https://github.com/user-attachments/assets/ee6ea620-39c7-4f92-9281-ed60bc4685cd)
+[Imagem 5](https://github.com/user-attachments/assets/ebeb9607-dcab-4dce-a07f-f3cc51969068)
 
-### Descrição: Realizar pesquisa de registo no site;
+---
 
-### Objetivo: Validar o mecanismo de busca, utilizando diferentes critérios (nome, e-mail, etc.) para garantir a precisão dos resultados.
+#### **6. Teste de Pesquisa de Registros**
 
-### O que será testado:O mecanismo de busca do site, no qual sera utilzado critérios para busca do resultado ;
+**Descrição:**
+Testar o mecanismo de busca de contatos existentes utilizando critérios como nome e e-mail.
 
-### Pré requisitos:
-* Usuario existente no sistema do SuiteCRM
-* Sistema especificação:Windows 10
-* Entrar com o usuario: "admin" e senha:"admin123"
-* Clicar no botão de login
-* Localizr na barra de tarefas a função de  Search
-* Indicar o critério a ser procurado
-  
-### Procedimento para execução do teste: Inserção de criterios para ser realizada a pesquisa ;
+**Objetivo:**
+Validar a precisão e funcionalidade da busca.
 
-### Resultado esperado: Pesquisa rapida e eficiente utilizando criterios de nomes, email etc, desejados;
+**O que será testado:**
+Barra de busca do módulo "Contacts".
 
-### Resultado real: Pesquisa realizada com sucesso;
+**Pré-requisitos:**
+- Acesso com usuário válido;
+- Contatos previamente cadastrados.
 
-### Analise do resultado: Pesquisa realizada com sucesso, no qual não foi apresentado erros;
+**Procedimento para Execução do Teste:**
+1. Realizar login;
+2. Acessar módulo "Contacts";
+3. Inserir critérios de busca (nome, e-mail) e acionar pesquisa.
 
-### Evidencias:
+**Resultado Esperado:**
+Retorno preciso dos registros correspondentes aos critérios informados.
 
-![Captura de tela 2025-04-22 193927](https://github.com/user-attachments/assets/eb05ca29-4870-4200-bf19-2de9e5de340f)
-![Captura de tela 2025-04-22 193943](https://github.com/user-attachments/assets/a067840a-97b7-4caa-ac3c-5734e305e247)
+**Resultado Real:**
+Sistema retornou corretamente os resultados esperados.
 
-## 7. Importação de dados: 
+**Análise do Resultado:**
+Teste bem-sucedido. A busca está funcionando corretamente.
 
-### Descrição: Realizar a importação de dados do site;
+**Evidências:**
+[Imagem 1](https://github.com/user-attachments/assets/eb05ca29-4870-4200-bf19-2de9e5de340f)
+[Imagem 2](https://github.com/user-attachments/assets/a067840a-97b7-4caa-ac3c-5734e305e247)
 
-### Objetivo: Verificar se o sistema importa corretamente os dados a partir de um arquivo CSV;
+---
 
-### O que será testado:O mecanismo de importação de dados do site ;
+#### **7. Teste de Importação de Dados**
 
-### Pré requisitos:
-* Usuario existente no sistema do SuiteCRM
-* Sistema especificação:Windows 10
-* Entrar com o usuario: "admin" e senha:"admin123"
-* Clicar no botão de login
-* Localizr na barra de tarefas a botão contacts
-* Clique no botão Imports contacts
-* Clique no link "Download import File template"
-  
-### Procedimento para execução do teste: Download atráves do link que será baixado o file dos contacts ;
+**Descrição:**
+Validar o processo de importação de contatos via arquivo CSV.
 
-### Resultado esperado: Importação eficiente dos contacts através de download;
+**Objetivo:**
+Confirmar a correta leitura e cadastro dos dados contidos no arquivo importado.
 
-### Resultado real: Importação dos dados;
+**O que será testado:**
+Funcionalidade de importação do módulo "Contacts".
 
-### Analise do resultado: importação realizada com sucesso, no qual não foi apresentado erros;
+**Pré-requisitos:**
+- Arquivo CSV formatado corretamente;
+- Acesso como "admin";
 
-### Evidencias:
-![Captura de tela 2025-04-22 201449](https://github.com/user-attachments/assets/2c8de863-85b5-43f7-8005-22c82d842014)
-![Captura de tela 2025-04-22 201505](https://github.com/user-attachments/assets/2dabdbca-2019-49ed-9205-6f69c83559c2)
+**Procedimento para Execução do Teste:**
+1. Acessar "Contacts";
+2. Clicar em "Import Contacts";
+3. Fazer upload do arquivo CSV;
+4. Confirmar importação.
 
-## 8. Exportação de dados: 
+**Resultado Esperado:**
+Contatos inseridos corretamente no sistema.
 
-### Descrição: Realizar a exportação de dados no site;
+**Resultado Real:**
+Importação executada com sucesso.
 
-### Objetivo: Garantir que a exportação dos registros funcione adequadamente e que o arquivo gerado contenha os dados corretos;
+**Análise do Resultado:**
+Teste aprovado. Dados foram importados sem erros.
 
-### O que será testado:O mecanismo de exportação de dados no site ;
+**Evidências:**
+[Imagem 1](https://github.com/user-attachments/assets/2c8de863-85b5-43f7-8005-22c82d842014)
+[Imagem 2](https://github.com/user-attachments/assets/2dabdbca-2019-49ed-9205-6f69c83559c2)
 
-### Pré requisitos:
-* Usuario existente no sistema do SuiteCRM
-* Sistema especificação:Windows 10
-* Entrar com o usuario: "admin" e senha:"admin123"
-* Clicar no botão de login
-* Localizr na barra de tarefas a botão contacts
-* Clique no botão Imports contacts
-* Clique no link "Download import File template"
-  
-### Procedimento para execução do teste: Download atráves do link que será baixado o file dos contacts ;
+---
 
-### Resultado esperado: Importação eficiente dos contacts através de download;
 
-### Resultado real: Importação dos dados;
-
-### Analise do resultado: importação realizada com sucesso, no qual não foi apresentado erros;
